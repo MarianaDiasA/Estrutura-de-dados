@@ -8,16 +8,6 @@ typedef struct {
 	int cod;
 }Produto;
 
-/*void setProduto (Produto *p){
-	printf("Digite o produto: \n");
-	gets(p->nome);
-	printf("Informe o preco: \n");
-	scanf("%f", p->preco);
-	printf("Informe a quantidade: \n");
-	scanf("%d", p->quantidade);
-}
-*/
-
 int main (void){
 	Produto arr[50];
 	int qt = 0;
